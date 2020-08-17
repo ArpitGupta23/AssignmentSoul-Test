@@ -1,9 +1,9 @@
 ﻿$(document).ready(function () {
     $(function () {
-        $("#nav-placeholder").load("../Views/Nav.html");
+        $("#nav-placeholder").load("Views/Nav.html");
     });
     $(function () {
-        $("#Copyrightsec-placeholder").load("../Views/Copyright.html");
+        $("#Copyrightsec-placeholder").load("Views/Copyright.html");
     });
 
 
