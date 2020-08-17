@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style>
+        .hexagon {
+                    position: relative;
+                  width: 200px;
+                  height: 288.68px;
+                  background: #CD5C5C;
+                  margin: 144px auto;
+                }
+        .hexagon::before,
+        .hexagon::after {
+                  content: "";
+                  position: absolute;
+                  border-top: 144px solid transparent;
+                  border-bottom: 144px solid transparent;
+            }
+        .hexagon::before {
+  right: 100%;
+  border-right: 144.34px solid #CD5C5C;
+}
+        .hexagon::after {
+  left: 100%;
+  border-left: 144.34px solid #CD5C5C;
+}
+    </style>
+</head>
+<body>
+  <div>
+      <div class="top"></div>
+      <div class="hexagon"></div>
+      <div class="bottom"></div>
+  </div>
+</body>
+</html>
